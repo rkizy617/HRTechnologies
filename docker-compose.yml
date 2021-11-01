@@ -3,6 +3,8 @@ version: '2'
 services:
   mariadb:
     image: docker.io/bitnami/mariadb:10.2
+    ports:
+      - 9306:3306
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
@@ -21,7 +23,7 @@ services:
     depends_on:
       - mariadb
     ports:
-      - 3000:3000
+      - 9300:3000
     volumes:
-      - ./:/app
+      - ./app:/app
     # privileged: true # Privileged mode could be required to run this container under Windows
