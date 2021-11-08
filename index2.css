@@ -25,6 +25,28 @@ img {
 
  }
 
+ /* Extra style for the cancel button (red) */
+ .cancelbtn {
+    width: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+  }
+
+  .cancelbtn:hover{
+    color: #818181;
+
+  }
+
+.topnav {
+    margin-left: 180px;
+
+}
+
 .sidenav {
     height: 100%;
     width: 180px;
