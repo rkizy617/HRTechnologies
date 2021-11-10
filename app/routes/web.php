@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::get('/login', function () {
+    return view('login');
+});
 //changed the main route  to home page and / added /welcome  route for welcome page
