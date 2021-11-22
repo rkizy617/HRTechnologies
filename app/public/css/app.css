@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1{
+    font-family: "Lato", sans-serif;
+    color: #f1f1f1;
+    background-color: #003478;
+    height: 120px;
+    font-size: 72px;
+    text-align: left;
+    text-indent: 10px;
+    top: 0px;
+    margin:0px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.main {
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 0px;
+}
