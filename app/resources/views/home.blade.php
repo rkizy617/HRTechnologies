@@ -1,3 +1,4 @@
+@extends('LayoutHR')
 <!--Home page-->
     <!DOCTYPE html>
     <html>
@@ -7,18 +8,7 @@
         <link rel="stylesheet" href="{{ URL::asset('css/app.css'); }}">
         <title> Home - HRTechnologies</title>
     </head>
-    
-    <body>
-        <div class="sidenav">
-            <img src="HRLOGO.png" alt="logo">
-            <br><br>
-            <a href="index2.html">Home</a>
-            <a href="assignments.html">Assignments</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="contact.html">Contact</a>
-            <a href="settings.html">Settings</a>
-        </div>
-    
+    @section('content')
         <div class="main">
             <h1>HRTechnologies</h1>
             <h2>Welcome to HRTechnolgies!</h2>
@@ -47,7 +37,7 @@
                     repudiandae nec et.
                     Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         </div>
-    
+        @endsection    
     </body>
     
     </html>
