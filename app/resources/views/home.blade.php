@@ -1,27 +1,23 @@
+@extends('LayoutHR')
 <!--Home page-->
     <!DOCTYPE html>
     <html>
-    
+
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ URL::asset('css/app.css'); }}">
         <title> Home - HRTechnologies</title>
     </head>
-    
+
+
+
     <body>
-        <div class="sidenav">
-            <img src="HRLOGO.png" alt="logo">
-            <br><br>
-            <a href="index2.html">Home</a>
-            <a href="assignments.html">Assignments</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="contact.html">Contact</a>
-            <a href="settings.html">Settings</a>
-        </div>
-    
+    @section('content')
+    <h1>Welcome to HRTechnolgies!</h1>
+    <div class="imgcontainer">
+        <img src="images/HRLOGO.png" alt="logo" class="avatar">
+    </div>
         <div class="main">
-            <h1>HRTechnologies</h1>
-            <h2>Welcome to HRTechnolgies!</h2>
             <h3>Company Updates</h3>
                 <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
                     concludaturque et eum,
@@ -47,8 +43,8 @@
                     repudiandae nec et.
                     Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         </div>
-    
+        @endsection
     </body>
-    
+
     </html>
-    
+

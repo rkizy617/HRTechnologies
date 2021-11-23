@@ -22,4 +22,18 @@ Route::get('/welcome', function () {
 Route::get('/login', function () {
     return view('login');
 });
-//changed the main route  to home page and / added /welcome  route for welcome page
+Route::get('/AssignEmployees', function () {
+    return view('AssignEmployees');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/schedule', function () {
+    return view('schedule');
+});
+Route::get('/update', function () {
+    return view('update');
+});
+
+
+Route::post('/');
