@@ -4,8 +4,8 @@ h1{
     font-family: "Lato", sans-serif;
     color: #f1f1f1;
     background-color: #003478;
-    height: 120px;
-    font-size: 72px;
+    height: 64px;
+    font-size: 50px;
     text-align: left;
     text-indent: 10px;
     top: 0px;
@@ -21,3 +21,21 @@ body {
     /* Increased text to enable scrolling */
     padding: 0px 0px;
 }
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+
+  /* Avatar image */
+  img.avatar {
+    width: 200px;
+    border-radius: 50%;
+
+  }
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }

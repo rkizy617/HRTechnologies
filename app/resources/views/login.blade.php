@@ -1,19 +1,18 @@
-@extends('LayoutHR')
+
 <!DOCTYPE html>
 <html>
-@section('content')
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ URL::asset('css/login.css'); }}">
     <title>Login - HRTechnologies</title>
 </head>
 
+<div class="imgcontainer">
+    <img src="images/HRLOGO.png" alt="logo" class="avatar">
+</div>
 
 <body>
-    <form action="home.blade.php" method="post">
-        <div class="imgcontainer">
-            <img src="HRLOGO.png" alt="logo" class="avatar">
-        </div>
+    <form method="post" href="/">
 
         <div class="container">
             <label for="uname"><b>Username</b></label>
@@ -34,5 +33,4 @@
         </div>
     </form>
 </body>
-@endsection  
 </html>

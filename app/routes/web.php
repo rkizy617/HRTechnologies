@@ -25,4 +25,15 @@ Route::get('/login', function () {
 Route::get('/AssignEmployees', function () {
     return view('AssignEmployees');
 });
-//changed the main route  to home page and / added /welcome  route for welcome page
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/schedule', function () {
+    return view('schedule');
+});
+Route::get('/update', function () {
+    return view('update');
+});
+
+
+Route::post('/');
