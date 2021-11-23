@@ -1,19 +1,18 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="login.css">
-    <title>EMPLOYEE LOGIN</title>
+    <link rel="stylesheet" href="{{ URL::asset('css/login.css'); }}">
+    <title>Login - HRTechnologies</title>
 </head>
 
+<div class="imgcontainer">
+    <img src="images/HRLOGO.png" alt="logo" class="avatar">
+</div>
 
 <body>
-    <form action="index2.html" method="post">
-        <div class="imgcontainer">
-            <img src="HRLOGO.png" alt="logo" class="avatar">
-            <h1>LOGIN</h1>
-        </div>
+    <form method="post" href="/">
 
         <div class="container">
             <label for="uname"><b>Username</b></label>
@@ -34,5 +33,4 @@
         </div>
     </form>
 </body>
-
 </html>
