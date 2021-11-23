@@ -12,7 +12,7 @@
 </div>
 
 <body>
-    <form method="post" href="/">
+    <form method="post" action="localhost:9300/">
 
         <div class="container">
             <label for="uname"><b>Username</b></label>
