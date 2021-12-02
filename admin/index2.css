@@ -1,28 +1,27 @@
 @charset "UTF-8";
 
 h1{
-    font-family: "Lato", sans-serif;
-    color: #f1f1f1;
-    background-color: #003478;
-    height: 120px;
-    font-size: 72px;
-    text-align: left;
-    text-indent: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: 	#C0C0C0;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 8px;
+    margin: 0px;
+    padding: 10px;
     top: 0px;
-    margin:0px;
+    margin-top: 3%;
+    margin-left: 180px;
 }
-
 body {
-    font-family: "Lato", sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 img {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 130px;
-    width: 180px;
-
+    width: 100%;
  }
 
  /* Extra style for the cancel button (red) */
@@ -41,12 +40,6 @@ img {
     color: #818181;
 
   }
-
-.topnav {
-    margin-left: 180px;
-
-}
-
 .sidenav {
     height: 100%;
     width: 180px;
@@ -54,9 +47,9 @@ img {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #003478;
+    background-color: 	#C0C0C0;
     overflow-x: hidden;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .sidenav a {
@@ -66,10 +59,13 @@ img {
     color: white;
     display: block;
     padding-top: 10px;
-}
 
+}
 .sidenav a:hover {
     color: #818181;
+}
+.sidenav a:visited{
+    display: none;
 }
 
 .main {
@@ -78,6 +74,10 @@ img {
     font-size: 28px;
     /* Increased text to enable scrolling */
     padding: 0px 0px;
+    text-indent: 0.5em;
+}
+.main h2{
+    margin-top: 4%;
 }
 
 @media screen and (max-height: 450px) {

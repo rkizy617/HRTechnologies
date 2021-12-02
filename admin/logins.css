@@ -18,7 +18,7 @@ img{
   border: 1px solid black;
   padding: 10px;
   margin: 5px 0;
-  width: 94%;
+  width: 100%;
   outline: none;
 }
 button{
@@ -28,7 +28,35 @@ button{
   width: 100%;
   outline: none;
   cursor: pointer;
+  background-color: #C0C0C0;
 }
 a{
   text-decoration: none;
 }
+a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/*signup*/
+.signup-form{
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: justify;
+}
+label{
+  display: inline-block;
+  padding: 12px 12px 12px 0;
+}
+input[type=submit]{
+  cursor: pointer;
+  float: right;
+}
+
+
+
