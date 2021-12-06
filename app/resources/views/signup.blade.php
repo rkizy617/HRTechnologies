@@ -7,10 +7,14 @@
   <link rel="stylesheet" href="{{ URL::asset('css/logins.css'); }}">
 </head>
 <body>
+  <div class="login-form">
+    <img src="images/logo.PNG">
+  </div>
   <div class="signup-form">
     <h1>Please complete the following:</h1>
   <div class="container">
-    <form action="">
+    <form action="http://localhost:9300/">
+        @CSRF
     <div class="row-1">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" required>

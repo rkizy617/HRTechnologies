@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,20 +9,21 @@
 </head>
 
 <body>
-    <form method="post" action="localhost:9300/">
-
+    <form method="post" action="http://localhost:9300/">
+        @CSRF
     <div class="login-form">
         <img src="images/logo.PNG">
         <h1>USER LOGIN</h1>
-        <form>
+
             <input type="uname" class="input-box" placeholder="USERNAME" required>
             <input type="password" class=input-box placeholder="PASSWORD" required>
-            <button type="button" class="login-button"><a href="/">LOGIN</a></button>
+            <button type="submit" class="login-button">LOGIN</button>
             <p><a href="">Forgot Password?</a></p>
             <hr>
             <p>Need an account? <a href="/signup">SIGN UP</a></p>
-        </form>
+    </form>
     </div>
-    
+
 </body>
 </html>
+
