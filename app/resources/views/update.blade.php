@@ -3,31 +3,37 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css'); }}">
-    <title>Personal Info</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ URL::asset('css/logins.css'); }}">
+    <title>Login - HRTechnologies</title>
 </head>
 
 <body>
-
     @section('content')
 <div class="main">
-    <h1>Personal Info</h1>
     <div class="imgcontainer">
         
     </div>
 
-  <h3>Use these links below to update/view your personal information</h3>
-  <p><a href="summary.html">Employee Summary</a></p>
-  <p><a href="name.html">Name</a></p>
-  <p><a href="address.html">Address</a></p>
-  <p><a href="phone.html">Phone Number</a></p>
-  <p><a href="gender.html">Gender</a></p>
-  <p><a href="emergency.html">Emergency Contacts</a></p>
-  <p><a href="private.html">Private Info</a></p>
-  <p><a href="personal.html">Other Personal Info</a></p>
-</div>
+    <form method="post" action="http://localhost:9300/">
+        @CSRF
+    <div class="login-form">
+        <img src="images/logo.PNG">
+        <h1>Update Personal Info</h1>
+
+            <input type="uname" class="input-box" placeholder="Name" required>
+            <button type="submit" class="login-button">SUBMIT</button>
+            <input type="uname" class=input-box placeholder="Address" required>
+            <button type="submit" class="login-button">SUBMIT</button>
+            <input type="uname" class=input-box placeholder="Phone Number" required>
+            <button type="submit" class="login-button">SUBMIT</button>
+            <input type="uname" class=input-box placeholder="Gender" required>
+            <button type="submit" class="login-button">SUBMIT</button>
+            <hr>
+    </form>
+    </div>
     @endsection
 </body>
-
 </html>
