@@ -35,7 +35,6 @@ Route::get('/update', function () {
     return view('update');
 });
 
-
 Route::post('/', function (){
     return view('home');
 });

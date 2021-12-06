@@ -13,7 +13,7 @@ body {
 .month {
     padding: 70px 25px;
     width: 100%;
-    background: #003478;
+    background: #36454F;
     text-align: center;
 }
 
@@ -70,12 +70,12 @@ body {
 
 .days li .active {
     padding: 5px;
-    background: #003478;
+    background: #36454F;
     color: white !important
 }
 
 .info {
-    background: #003478;
+    background: #36454F;
     color:white;
     height: 250px;
 }
