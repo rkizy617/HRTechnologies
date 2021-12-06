@@ -15,7 +15,7 @@
         <div class="nav-links" id="navLinks">
           <i class="material-icons-outlined" onclick="hideMenu()">cancel</i>
           <ul>
-            <li><a href="/">HOME</a></li>
+            <li><a href="/home">HOME</a></li>
             <li><a href="#">Job History</a></li>
             <li><a href="/update">manage profile</a></li>
             <div class="dropdown">
