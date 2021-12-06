@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form method="post" action="http://localhost:9300/">
+    <form method="post" action="http://localhost:9300/home">
         @CSRF
     <div class="login-form">
         <img src="images/logo.PNG">

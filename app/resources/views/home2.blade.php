@@ -1,4 +1,4 @@
-@extends('navemploy')
+@extends('LayoutHR')
 <!--Home page-->
     <!DOCTYPE html>
     <html>

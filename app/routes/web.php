@@ -39,6 +39,10 @@ Route::post('/', function (){
     return view('home');
 });
 
+Route::post('/home', function (){
+    return view('home2');
+});
+
 Route::get('/signup', function(){
     return view('signup');
 });
