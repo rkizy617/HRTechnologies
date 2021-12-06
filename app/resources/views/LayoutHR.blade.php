@@ -27,7 +27,7 @@
               <a href="#">Employee Database</a>
               </div>
             </div>
-            <li><a href="/login">logout</a></li>
+            <li><a href="/login">log in/out</a></li>
           </ul>
         </div>
         <i class="material-icons-outlined" onclick="showMenu()">menu</i>
