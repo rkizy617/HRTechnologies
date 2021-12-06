@@ -24,11 +24,8 @@
         <h1>Update Personal Info</h1>
 
             <input type="uname" class="input-box" placeholder="Name" required>
-            <button type="submit" class="login-button">SUBMIT</button>
             <input type="uname" class=input-box placeholder="Address" required>
-            <button type="submit" class="login-button">SUBMIT</button>
             <input type="uname" class=input-box placeholder="Phone Number" required>
-            <button type="submit" class="login-button">SUBMIT</button>
             <input type="uname" class=input-box placeholder="Gender" required>
             <button type="submit" class="login-button">SUBMIT</button>
             <hr>
