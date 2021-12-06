@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="{{ URL::asset('css/logins.css'); }}">
 </head>
 <body>
-  <div class="login-form">
-    <img src="images/logo.PNG">
-  </div>
   <div class="signup-form">
+  <img src="images/logo.PNG">
     <h1>Please complete the following:</h1>
   <div class="container">
     <form action="form.php" method="POST">
