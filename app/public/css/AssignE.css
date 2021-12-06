@@ -12,7 +12,7 @@ input[type=text], select, textarea {
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #36454F;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -48,11 +48,10 @@ input[type=text], select, textarea {
       h1{
         font-family: "Lato", sans-serif;
         color: #f1f1f1;
-        background-color: #003478;
+        background-color: #36454F;
         height: 64px;
         font-size: 50px;
-        text-align: left;
-        text-indent: 10px;
+        text-align: center;
         top: 0px;
         margin:0px;
     }

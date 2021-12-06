@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+.login-form{
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+img{
+  width: 50%;
+}
+.input-box{
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px 0;
+  width: 95%;
+  outline: none;
+}
+button{
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  background-color: #C0C0C0;
+}
+a{
+  text-decoration: none;
+}
+a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/*signup*/
+.signup-form{
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: justify;
+}
+label{
+  display: inline-block;
+  padding: 12px 12px 12px 0;
+}
+input[type=submit]{
+  cursor: pointer;
+  float: right;
+}
+
+

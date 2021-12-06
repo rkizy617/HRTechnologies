@@ -39,3 +39,7 @@ Route::get('/update', function () {
 Route::post('/', function (){
     return view('home');
 });
+
+Route::get('/signup', function(){
+    return view('signup');
+});

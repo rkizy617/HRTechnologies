@@ -14,7 +14,7 @@
     @section('content')
     <h1> Assign Employees</h1>
     <div class="imgcontainer">
-        <img src="images/HRLOGO.png" alt="logo" class="avatar">
+        <!--<img src="images/logo.png" alt="logo" class="avatar">-->
     </div>
     <div class="container">
         <form action="action_page.php">

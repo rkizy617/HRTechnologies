@@ -14,7 +14,7 @@
 <div class="main">
     <h1>Personal Info</h1>
     <div class="imgcontainer">
-        <img src="images/HRLOGO.png" alt="logo" class="avatar">
+        
     </div>
 
   <h3>Use these links below to update/view your personal information</h3>
