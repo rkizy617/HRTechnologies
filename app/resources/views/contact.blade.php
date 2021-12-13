@@ -4,7 +4,7 @@
     @section('content')
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css'); }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/AssignE.css'); }}">
     <title>CONTACT</title>
 </head>
 
@@ -13,7 +13,7 @@
 <div class="main">
   <h1>Contact</h1>
   <div class="imgcontainer">
-    
+
 </div>
   <h3>Use these links below to reach your teammates</h3>
   <h4>Management</h4>

@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <form method="post" action="http://localhost:9300/home">
-        @CSRF
+    <form method="post" action="http://localhost:9300/home2">
+        @csrf
     <div class="login-form">
         <img src="images/logo.PNG">
         <h1>USER LOGIN</h1>
 
-            <input type="uname" class="input-box" placeholder="USERNAME" required>
-            <input type="password" class=input-box placeholder="PASSWORD" required>
+            <input name="uname" type="uname" class="input-box" placeholder="USERNAME" required>
+            <input name="pass" type="password" class=input-box placeholder="PASSWORD" required>
             <button type="submit" class="login-button">LOGIN</button>
             <p><a href="">Forgot Password?</a></p>
             <hr>

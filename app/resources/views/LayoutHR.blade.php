@@ -11,11 +11,11 @@
 <body>
   <section class="header">
       <nav>
-        <a href="/"><img src="images/logo.png"></a>
+        <a href="/home2"><img src="images/logo.png"></a>
         <div class="nav-links" id="navLinks">
           <i class="material-icons-outlined" onclick="hideMenu()">cancel</i>
           <ul>
-            <li><a href="/">HOME</a></li>
+            <li><a href="/home2">HOME</a></li>
             <li><a href="#">Job History</a></li>
             <li><a href="/update">manage profile</a></li>
             <div class="dropdown">
@@ -23,11 +23,18 @@
               <div class="dropdown-content">
               <a href="/schedule">Schedule employees</a>
               <a href="/AssignEmployees">Assign employees</a>
-              <a href="/contact">Give feedback to employees </a>
+              <a href="/contact">Contact</a>
               <a href="#">Employee Database</a>
               </div>
             </div>
-            <li><a href="/">log out</a></li>
+            @if(isset($users))
+            Welcome, {{$users['username']}}!
+                <li><a href="/logout">log out</a></li>
+            @else
+                Username/password not found, please try again:
+                <li><a href="/login">login</a></li>
+            @endif
+
           </ul>
         </div>
         <i class="material-icons-outlined" onclick="showMenu()">menu</i>
@@ -43,27 +50,6 @@
         navLinks.style.right="-180px";
       }
     </script>
-<!--
-    <div class="navbar">
-        <a href="/">Company updates</a>
-        <a href="#">Job History</a>
-        <a href="/update">Update personal info</a>
-        <div class="dropdown">
-          <button class="dropbtn">Staff management
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="/schedule">Schedule employees</a>
-            <a href="/AssignEmployees">Assign employees</a>
-            <a href="/contact">Give feedback to employees </a>
-            <a href="#">Employee Database</a>
-          </div>
-        </div>
-        <div class="logout">
-            <a href="/login">Log out</a>
-            </div>
-        </div>
-    -->
     @yield('content')
 
 </body>

@@ -5,7 +5,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href= "{{ URL::asset('css/schedule.css'); }}">
-    <title>Schedule</title>
+    <title>Schedule - HRTechnologies</title>
 </head>
 
 <body>

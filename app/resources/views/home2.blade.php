@@ -5,10 +5,13 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ URL::asset('css/app.css'); }}">
-        <title> Home - HRTechnologies</title>
+        <title> Home2 - HRTechnologies</title>
     </head>
     <body>
     @section('content')
+
+
+
     <h1>Welcome to HRTechnolgies!</h1>
         <div class="main">
             <h2>Meet the Team!</h2>

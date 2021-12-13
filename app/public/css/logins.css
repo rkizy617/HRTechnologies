@@ -58,9 +58,10 @@ input[type=submit]{
   float: right;
 }
 .signup-form img{
-  width: 120px;
+  width: 125px;
+  margin-left: 245px;
 }
 .signup-form h1{
-  text-align: right;
+  text-align: left;
 }
 

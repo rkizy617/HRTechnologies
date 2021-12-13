@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/HRLOGO.png">
         <link rel="stylesheet" href="{{ URL::asset('css/AssignE.css'); }}">
-        <title> Assign Employees</title>
+        <title>Assign Employees - HRTechnologies</title>
     </head>
 
 
@@ -17,12 +17,12 @@
         <!--<img src="images/logo.png" alt="logo" class="avatar">-->
     </div>
     <div class="container">
-        <form action="action_page.php">
-
+        <form method="post" action="http://localhost:9300/home2">
+        @csrf
           <label for="name">Assignor Name</label>
           <input type="text" id="name" name="name" placeholder="Your name..">
 
-          <label for="ename">Employe Name</label>
+          <label for="ename">Employee Name</label>
           <input type="text" id="ename" name="employename" placeholder="Employe Name">
 
           <label for="department">Department</label>

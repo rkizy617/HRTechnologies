@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ URL::asset('css/logins.css'); }}">
-    <title>Login - HRTechnologies</title>
+    <title>Update - HRTechnologies</title>
 </head>
 
 <body>
@@ -17,10 +17,9 @@
 
     </div>
 
-    <form method="post" action="http://localhost:9300/home">
-        @CSRF
+    <form method="post" action="http://localhost:9300/home2">
+        @csrf
     <div class="login-form">
-        <img src="images/logo.PNG">
         <h1>Update Personal Info</h1>
 
             <input type="uname" class="input-box" placeholder="Name" required>
